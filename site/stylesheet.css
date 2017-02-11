@@ -1,13 +1,10 @@
-html{
-	height: 100%;
-}
 * { 
 box-sizing: border-box; 
 }
 
 body{
 
-	font-family: arial;
+	font-family: cursive;
 	background-color: #81d4cb;
 }
 
@@ -19,8 +16,10 @@ font-size: 1.75em;
 .title {
 position: absolute;
 top: 0;
+width: 100px;
+text-align: center;
 right: 0;
-border: 1px solid black;
+border:2px solid black;
 font-size: 1.25em;
 }
 #section1, #section2, #section3 {
@@ -29,29 +28,28 @@ padding: 12px;
 
 #section1 .content, #section2 .content, #section3 .content {
 font-size: 1em;
-width: auto;
-height: auto;
-background-color: ; 
+background-color: #f1eace; 
 position: relative;
-border:1px solid black;
+border:2px solid black;
 padding-top: 12px;
+height: 190px;
 overflow: auto;
 }
  
 #section1 .title {
-background-color: #065C37;
+background-color: #d9a2c8;
 }
 
 #section2 .title {
-background-color: #B95B37;
+background-color: #8da0af;
 }
 #section3 .title {
-background-color: #0D4EE1;
+background-color: #149a43;
 }
 /* desktop  */
 @media (min-width: 992px) {
 #section1, #section2, #section3 {
-float: : left;
+float: left;
 width: 33%;
 } 
 }
