@@ -1,14 +1,83 @@
-<<<<<<< HEAD
-{
-box sizing:border-box;
+* { 
+	box-sizing: border-box; 
 }
-h1{
-	text-align: center;
-=======
-{
-box sizing:border-box;
+ 
+ body {
+ 	font-family: arial;
+ 	background-color: pink;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-size: 1.75em;
+ }
+ .title {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	border: 1px solid black;
+ 	font-size: 1.25em;
+ }
+
+ #section1, #section2, #section3 {
+ 	
+ 	padding: 12px;
+
+ }
+
+ #section1 .content, #section2 .content, #section3 .content {
+ 	font-size: 1em;
+ 	background-color: #0DD37E; 
+ 	position: relative;
+ 	border:1px solid black;
+ 	padding-top: 12px;
+
+
+
+ }
+ 
+#section1 .title {
+	background-color: #065C37;
+
 }
-h1{
-	text-align: center;
->>>>>>> cb1ebb0797d738e76e15e0472fa92d9cd31c47fa
+
+#section2 .title {
+	background-color: #B95B37;
+}
+
+#section3 .title {
+	background-color: #0D4EE1;
+}
+
+/* desktop  */
+@media (min-width: 992px) {
+	#section1, #section2, #section3 {
+		float: : left;
+		width: 33%;
+	} 
+}
+
+/*tablet*/
+@media (min-width:768px) and (max-width: 991px) {
+	#section1, #section2, #section3 {
+		float: left;
+	} 
+
+	#section1, #section2 {
+		width: 49.7%;
+	}
+
+	#section3 {
+		width: 100%;
+	}
+
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+	#section1, #section2, #section3 {
+		float: left;
+		width: 100%;
+	} 
+
 }
