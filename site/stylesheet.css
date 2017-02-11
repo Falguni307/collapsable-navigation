@@ -8,7 +8,7 @@ box-sizing: border-box;
 body{
 
 	font-family: arial;
-	background : pink;
+	background-color: #81d4cb;
 }
 
 h1 {
@@ -31,7 +31,7 @@ padding: 12px;
 font-size: 1em;
 width: auto;
 height: auto;
-background-color: pink; 
+background-color: ; 
 position: relative;
 border:1px solid black;
 padding-top: 12px;
